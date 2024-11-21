@@ -204,6 +204,7 @@ iframe {
   justify-content: center;
 }
 @media (max-width: 768px) {
+   
   nav ul {
     flex-direction: row;
     justify-content: center;
@@ -211,6 +212,9 @@ iframe {
     gap: 1rem;
     padding: 10px;
 
+  }
+  .nav{
+    height: 55px;
   }
   #logo_airmax {
     display: flex;
