@@ -106,14 +106,16 @@ body {
   background-color: #0f0e17;
   color: white;
   background-image: url(./images/airmax-nike-logo-png_seeklogo-528702-removebg-preview.png);
-  background-position: center;
   backdrop-filter: blur(6px) brightness(0.9);
 }
 .cita {
   font-size: 15px;
   margin: 10px;
   line-height: 25px;
-  background: linear-gradient(rgba(63, 11, 21, 0.349), rgba(220, 20, 60, 0.725));
+  background: linear-gradient(
+    rgba(63, 11, 21, 0.349),
+    rgba(220, 20, 60, 0.725)
+  );
   text-shadow: 2px 2px 2px black;
   border-radius: 5px;
   text-align: center;
@@ -121,25 +123,26 @@ body {
 .texto {
   font-size: 15px;
   margin: 10px;
+  margin-top: 50px;
   line-height: 20px;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
   margin: 10px;
   text-transform: uppercase;
-  text-align: center; 
+  text-align: center;
 }
 
-
-h1{
+h1 {
   font-size: 30px;
 }
 
-h2,h3 {
+h2,
+h3 {
   font-size: 25px;
-}
-h3{
-  margin-top: 100px;
+  margin-top: 50px;
 }
 
 ol {
@@ -217,23 +220,28 @@ figcaption {
   bottom: 15px;
 }
 
-iframe {
+.iframe_section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 100%;
+  height: auto;
+  
+}
+.iframe_div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin:50px;
+}
+iframe {
   height: 300px;
+  
 }
 
 #Formulario_de_contacto {
   width: 100%;
 }
-
-.iframe_section {
-  display: flex;
-  justify-content: center;
-  width: 100%;
-  height: auto;
-}
-
-
 .button {
   padding: 0.75rem 1.5rem;
   color: rgb(8, 8, 8);
@@ -244,15 +252,16 @@ iframe {
   display: flex;
   margin: 5px;
 }
-p,form{
-  margin: 5px;
+p {
+  margin-top: 25px;
 }
 .button:hover {
   opacity: 0.9;
   color: rgb(255, 127, 127);
 }
-.copy,.contacto{
-  margin: 5px;
+.copy {
+  
+  position: bottom;
   display: flex;
   justify-content: center;
 }
@@ -277,7 +286,7 @@ p,form{
     padding-bottom: 10px;
     min-width: 100%;
   }
-  .zapa{
+  .zapa {
     object-fit: contain;
   }
 
