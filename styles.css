@@ -105,8 +105,9 @@ body {
   background-color: #ffffff;
   background-color: #0f0e17;
   color: white;
-  background-image: url(./images/airmax-nike-logo-png_seeklogo-528702-removebg-preview.png);
-  backdrop-filter: blur(6px) brightness(0.9);
+  background: #0f0e17 url(./images/airmax-nike-logo-png_seeklogo-528702-removebg-preview.png) center center repeat;
+  background-size: contain;
+  backdrop-filter: blur(4px) brightness(0.9);
 }
 .cita {
   font-size: 15px;
