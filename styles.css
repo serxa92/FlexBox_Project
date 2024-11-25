@@ -275,7 +275,7 @@ p,form{
     min-width: 100%;
   }
   .zapa{
-    object-fit: cover;
+    object-fit: contain;
   }
 
   .iframe_div {
