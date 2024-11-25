@@ -147,8 +147,9 @@ ol {
   list-style: none;
   gap: 10px;
   > li > figure > .zapa {
-    width: 300px;
+    width: auto;
     height: auto;
+    object-fit: cover;
   }
 }
 .flip-container {
@@ -272,6 +273,9 @@ p,form{
     background-color: crimson;
     padding-bottom: 10px;
     min-width: 100%;
+  }
+  .zapa{
+    object-fit: cover;
   }
 
   .iframe_div {
