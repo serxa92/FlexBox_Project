@@ -335,6 +335,9 @@ p,form{
   font-size: 15px;
   margin: 10px;
 }
+.cierre{
+  text-align: center;
+}
 .button:hover {
   opacity: 0.9;
   color: crimson;
