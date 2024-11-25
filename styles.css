@@ -250,10 +250,13 @@ iframe {
   cursor: pointer;
   font-weight: 500;
   display: flex;
-  margin: 5px;
+  margin: 10px;
 }
-p {
-  margin-top: 25px;
+
+p,form{
+  line-height: 20px;
+  font-size: 15px;
+  margin: 10px;
 }
 .button:hover {
   opacity: 0.9;
