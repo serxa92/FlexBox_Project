@@ -3,6 +3,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  outline: 1px solid red;
 }
 
 #logo_airmax {
@@ -290,7 +291,7 @@ p,form{
     min-width: 100%;
   }
   .zapa {
-    object-fit: contain;
+    max-width: 100%;
   }
 
   .iframe_div {
