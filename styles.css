@@ -3,6 +3,11 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  text-align: justify;
+  direction: ltr;
+  
+  
+
 }
 
 #logo_airmax {
@@ -101,17 +106,16 @@ body {
   margin: 0;
   padding: 0;
   font-family: "Roboto";
-  background-color: #ffffff;
-  background-color: #0f0e17;
+  background: #0f0e17 !important;
   color: white;
-  background: #0f0e17 url(./images/airmax-nike-logo-png_seeklogo-528702-removebg-preview.png) center center repeat;
-  background-size: contain;
-  backdrop-filter: blur(4px) brightness(0.9);
+  
 }
+
 .cita {
   font-size: 15px;
-  margin: 10px;
+  margin: 2em;
   line-height: 25px;
+  padding: 1em;
   background: linear-gradient(
     rgba(63, 11, 21, 0.349),
     rgba(220, 20, 60, 0.725)
@@ -119,6 +123,16 @@ body {
   text-shadow: 2px 2px 2px black;
   border-radius: 5px;
   text-align: center;
+  box-shadow: #ffffff 0px 0px 5px;
+}
+.cita:hover {
+  background: linear-gradient(
+    rgba(220, 20, 60, 0.725),
+    rgba(63, 11, 21, 0.349)
+  );
+  box-shadow: #ffffff 0px 0px 5px;
+  transition: all 0.5s;
+
 }
 .texto {
   font-size: 15px;
@@ -133,6 +147,7 @@ h3 {
   margin: 10px;
   text-transform: uppercase;
   text-align: center;
+  
 }
 
 h1 {
@@ -164,6 +179,7 @@ ol {
   height: 300px;
   border-radius: 40px;
   perspective: 1000px;
+  
 }
 .card {
   position: relative;
@@ -173,6 +189,7 @@ ol {
   transition: transform 1s;
   transform-style: preserve-3d;
   border-radius: 40px;
+  
 }
 .flip-container:hover .card {
   transform: rotateY(180deg);
@@ -259,8 +276,9 @@ iframe {
     text-indent: 0;
     font-weight: 300;
   }
+  
 
-  + label {
+   label {
     display: inline-block;
     position: absolute;
     transform: translateX(0);
@@ -271,10 +289,10 @@ iframe {
     font-size: 11px;
     font-weight: 700;
     text-transform: uppercase;
-    color: #032429;
+    color: #000000;
     text-align: left;
     text-shadow: 0 1px 0 rgba(255,255,255,.4);
-    transition: all .3s ease-in-out, color .3s ease-out;
+    transition: all .4s ease-in-out, color .4s ease-out;
     border-top-left-radius: 3px;
     
     border-bottom-left-radius: 3px;
@@ -290,7 +308,7 @@ iframe {
       background: #7AB893;
       z-index: -1;
       transform: translate(0);
-      transition: all .3s ease-in-out;
+      transition: all .5s ease-in-out;
       border-top-left-radius: 3px;
       border-bottom-left-radius: 3px;
     }
