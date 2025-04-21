@@ -3,6 +3,7 @@
 Este proyecto es una **página web informativa** hecha con **HTML5** y **CSS3**, que narra la evolución de las zapatillas **Nike Air Max** desde su origen hasta sus modelos más icónicos.
 
 ---
+ <img src="images/movil.png" alt="Logo" width="170"/> <img src="images/mac.png" alt="Logo" width="600"/>
 
 ## 🌐 Descripción
 
